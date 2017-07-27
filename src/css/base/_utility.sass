@@ -1,0 +1,56 @@
+.float-left
+  float: left
+
+.float-right
+  float: right
+
+.text-left
+  text-align: left
+
+.text-right
+  text-align: right
+
+.text-center
+  text-align: center
+
+.hide
+  display: none
+
+.float-left-image,
+.float-right-image
+  display: block
+  margin: 0 auto 25px
+
+.float-left-image
+  @media (min-width: 768px)
+    float: left
+    margin-right: 30px
+    margin-bottom: 15px
+    margin-top: 10px
+    max-width: 500%
+    width: 48%
+
+  @media (min-width: 1200px)
+    margin-right: 70px
+
+.float-right-image
+  @media (min-width: 768px)
+    float: right
+    margin-left: 30px
+    margin-bottom: 15px
+    margin-top: 10px
+    max-width: 500%
+    width: 48%
+
+  @media (min-width: 1200px)
+    margin-left: 70px
+
+.mobile-hidden
+  display: none
+
+  @media (min-width: 1100px)
+    display: block
+
+.desktop-hidden
+  @media (min-width: 1100px)
+    display: none !important
