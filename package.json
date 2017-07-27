@@ -2,8 +2,11 @@
   "name": "start-template",
   "version": "1.0.0",
   "description": "",
-  "author": "",
-  "license": "ISC",
+  "author": "mazax1ct",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mazax1ct/start-template"
+  },
   "devDependencies": {
     "gulp": "^3.9.1"
   },
