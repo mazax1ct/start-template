@@ -33,7 +33,7 @@ var path = {
     html: "src/**/*.html",
     js: "src/js/**/*.js",
     style: "src/css/**/*.*",
-    img: "src/img/**/*.*",
+    img: "src/images/**/*.*",
     fonts: "src/fonts/**/*.*"
   },
   clean: "./build"
@@ -80,7 +80,7 @@ gulp.task("style:build", function() {
     .pipe(gcmq())
     .pipe(
       prefixer({
-        browsers: ["last 2 versions", "ie >= 10"],
+        browsers: ["last 10 versions", "ie >= 10"],
         cascade: false
       })
     )
