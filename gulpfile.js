@@ -80,7 +80,7 @@ gulp.task("style:build", function() {
     .pipe(gcmq())
     .pipe(
       prefixer({
-        browsers: ["last 10 versions", "ie >= 10"],
+        browsers: ["last 2 versions"],
         cascade: false
       })
     )

@@ -13,6 +13,18 @@
   text-align: center
   vertical-align: middle
 
-  &:hover
+  &:hover,
+  &:active
     background-color: #00d123
     color: #fff
+
+  &:focus
+    outline: 1px dotted #000
+
+  &:disabled,
+  &.disabled
+    cursor: default
+    opacity: 0.5
+
+    &:focus
+      outline: none
