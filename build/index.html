@@ -52,34 +52,72 @@
           <li>нумерованный список</li>
           <li>нумерованный список</li>
         </ol>
-        <form class="form" action="index.html">
+        <form method="post" class="form" action="index.html">
           <p>
-            <label for="inp">
-              <input class="input" id="inp" type="text" value="" placeholder="текст..." disabled/>
+            <label>
+              <input class="input" type="text" value="" placeholder="текст..."/>
             </label>
           </p>
           <p>
-            <label for="inp2">
-              <textarea class="textarea" id="inp2" placeholder="текст..."></textarea>
+            <label>
+              <input class="input" type="text" value="" placeholder="текст..." disabled/>
             </label>
           </p>
           <p>
-            <label for="inp3" class="checkbox-label disabled" tabindex="-1">
-              <input id="inp3" type="checkbox" checked disabled/>
+            <label>
+              <textarea class="textarea" placeholder="текст..."></textarea>
+            </label>
+          </p>
+          <p>
+            <label>
+              <textarea class="textarea" placeholder="текст..." disabled></textarea>
+            </label>
+          </p>
+          <p>
+            <label class="checkbox-label">
+              <input type="checkbox"/>
               <span class="checkbox-icon"></span>
               <span class="checkbox-text">Чекбокс</span>
             </label>
           </p>
           <p>
-            <label for="inp4" class="radio-label" tabindex="0">
-              <input id="inp4" type="radio" name="radio" value="1"/>
+            <label class="checkbox-label">
+              <input type="checkbox" checked/>
+              <span class="checkbox-icon"></span>
+              <span class="checkbox-text">Чекбокс</span>
+            </label>
+          </p>
+          <p>
+            <label class="checkbox-label">
+              <input type="checkbox" disabled/>
+              <span class="checkbox-icon"></span>
+              <span class="checkbox-text">Чекбокс</span>
+            </label>
+          </p>
+          <p>
+            <label class="checkbox-label">
+              <input type="checkbox" checked disabled/>
+              <span class="checkbox-icon"></span>
+              <span class="checkbox-text">Чекбокс</span>
+            </label>
+          </p>
+          <p>
+            <label class="radio-label">
+              <input id="radio1" type="radio" name="radio" value="1" checked/>
               <span class="radio-icon"></span>
               <span class="radio-text">Радио</span>
             </label>
           </p>
           <p>
-            <label for="inp5" class="radio-label" tabindex="0">
-              <input id="inp5" type="radio" name="radio" value="2"/>
+            <label class="radio-label">
+              <input id="radio2" type="radio" name="radio" value="2"/>
+              <span class="radio-icon"></span>
+              <span class="radio-text">Радио</span>
+            </label>
+          </p>
+          <p>
+            <label class="radio-label">
+              <input id="radio2" type="radio" name="radio" value="3" disabled/>
               <span class="radio-icon"></span>
               <span class="radio-text">Радио</span>
             </label>
@@ -90,11 +128,13 @@
             <input class="button" type="button" value="Акститесь!">
           </p>
           <p>
-            <select class="select" >
-              <option value="1">Вариант 1</option>
-              <option value="1">Вариант 2</option>
-              <option value="1">Вариант 3</option>
-            </select>
+            <div class="select">
+              <select>
+                <option value="1">Вариант 1</option>
+                <option value="1">Вариант 2</option>
+                <option value="1">Вариант 3</option>
+              </select>
+            </div>
           </p>
         </form>
         <table>
